@@ -20,7 +20,11 @@ function Projects() {
       ],
       role: "Individual",
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "#",
+      status: {
+        demo: "available",
+        code: "available"
+      }
     },
     {
       title: "Oceanify",
@@ -39,7 +43,11 @@ function Projects() {
       ],
       role: "Database Programmer",
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "#",
+      status: {
+        demo: "available",
+        code: "available"
+      }
     }
   ];
 
@@ -155,15 +163,25 @@ function Projects() {
                 {/* Action Buttons */}
                 <div className="flex gap-3">
                   <a
-                    href={project.liveUrl}
-                    className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-lg font-medium transition"
+                    href={project.status.demo === "available" ? project.liveUrl : undefined}
+                    className={`flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium transition ${
+                      project.status.demo === "available"
+                        ? "bg-blue-600 hover:bg-blue-700 text-white cursor-pointer"
+                        : "bg-gray-300 text-gray-500 cursor-not-allowed"
+                    }`}
+                    onClick={(e) => project.status.demo === "unavailable" && e.preventDefault()}
                   >
                     <ExternalLink className="w-4 h-4" />
                     View Live
                   </a>
                   <a
-                    href={project.githubUrl}
-                    className="flex items-center justify-center gap-2 border border-gray-300 hover:border-gray-400 hover:bg-gray-50 px-4 py-2.5 rounded-lg font-medium transition"
+                    href={project.status.code === "available" ? project.githubUrl : undefined}
+                    className={`flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium transition ${
+                      project.status.code === "available"
+                        ? "border border-gray-300 hover:border-gray-400 hover:bg-gray-50 cursor-pointer"
+                        : "border border-gray-300 bg-gray-100 text-gray-400 cursor-not-allowed"
+                    }`}
+                    onClick={(e) => project.status.code === "unavailable" && e.preventDefault()}
                   >
                     <Github className="w-4 h-4" />
                     Code

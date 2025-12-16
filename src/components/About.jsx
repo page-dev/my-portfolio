@@ -46,7 +46,7 @@ function About(){
                 </div>
 
                 <div className="w-full lg:w-1/2 text-center lg:text-left flex flex-col lg:ml-8">
-                    <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl mb-3">Frontend Developer</h1>
+                    <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl mb-3">Web Developer</h1>
                     <p className="font-mono text-sm sm:text-base">
                         I am a developer defined by curiosity and consistency. Whether doing complex coursework or building personal applications from scratch, I am constantly expanding my technical toolkit. 
                         Here is the stack I've leveraged to turn concepts into functional code:
