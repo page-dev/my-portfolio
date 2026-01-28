@@ -48,6 +48,26 @@ function Projects() {
         demo: "available",
         code: "available"
       }
+    },
+    {
+      title: "Organization Fee Collection & Financial Tracking System",
+      description: "",
+      longDescription: "A web application that tracks fee collection and finances in an university organization. (Ongoing)",
+      images: [
+        "../not-available.png"
+      ],
+      stack: [
+        { name: "React", icon: "../react.png" },
+        { name: "Go", icon: "../go.png" },
+        { name: "PostgreSQL", icon: "../Postgresql_elephant.svg" }
+      ],
+      role: "Frontend Developer",
+      liveUrl: "https://l.messenger.com/l.php?u=https%3A%2F%2Foceanify-official-page-b9p7.vercel.app%2F&h=AT2A_KUE5BNVZgW5WCMizn1-SUFQAFYzxK13YZKWImWbdB_Ot7_oKzy_rNn8TCsK6TwFfgCHuL7bP-x84i1Fr-1mrvodq9PxcJJBm8fy78oR0NH7xDjqJE0Td6g1UPG2qSIwyLShRhvGCvE",
+      githubUrl: "https://github.com/Ji-ru/Oceanify",
+      status: {
+        demo: "unavailable",
+        code: "unavailable"
+      }
     }
   ];
 
