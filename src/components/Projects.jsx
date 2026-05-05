@@ -68,7 +68,7 @@ function Projects() {
         demo: "unavailable",
         code: "unavailable"
       }
-    }
+    },
   ];
 
   const nextImage = (projectIdx) => {

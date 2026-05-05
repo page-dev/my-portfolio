@@ -4,10 +4,12 @@ function About(){
         {
             front: [
                 { src: "../flutter.png", name: "Flutter" },
-                { src: "../react.png", name: "React" }
+                { src: "../react.png", name: "React" },
+                { src: "../Vue.js_Logo_2.svg.png", name: "Vue" },
             ],
             back: [
                 { src: "Laravel.svg.png", name: "Laravel" },
+                { src: "../Expressjs.png", name: "Express js" },
                 { src: "java.png", name: "Java" },
                 { src: "PHP-logo.svg.png", name: "PHP" }
             ],
