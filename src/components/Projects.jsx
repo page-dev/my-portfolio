@@ -54,7 +54,7 @@ function Projects() {
       description: "",
       longDescription: "A web application that tracks fee collection and finances in an university organization. (Ongoing)",
       images: [
-        "../not-available.png"
+        "../broken.png"
       ],
       stack: [
         { name: "React", icon: "../react.png" },

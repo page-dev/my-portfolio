@@ -15,10 +15,10 @@ function Hero() {
                 <p className="font-mono mt-4 sm:mt-5 text-sm sm:text-base">
                     Hi! I am a 4th year software development student from 
                     <span className="font-bold"> Central Mindanao University.</span> 
-                    I am a motivated frontend developer with a strong passion for web design.
+                    I am a motivated full-stack developer with a strong passion for implementing modern applications.
                 </p>
                 <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4 mt-5">
-                    <a href='my-resume.pdf' className="group relative px-6 sm:px-8 py-3 sm:py-4 rounded-xl border-2 border-blue-500 text-blue-500 font-semibold text-base sm:text-lg overflow-hidden transition-colors duration-300 hover:text-white font-mono">
+                    <a href='Labrador-resume.pdf' className="group relative px-6 sm:px-8 py-3 sm:py-4 rounded-xl border-2 border-blue-500 text-blue-500 font-semibold text-base sm:text-lg overflow-hidden transition-colors duration-300 hover:text-white font-mono">
                         <span className="relative z-10">Know more about me!</span>
                         <div className="absolute inset-0 bg-blue-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></div>
                     </a>
